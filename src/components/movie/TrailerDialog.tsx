@@ -37,6 +37,9 @@ export function TrailerDialog({ title, videos }: TrailerDialogProps) {
         <Dialog.Content className="fixed left-1/2 top-1/2 z-50 w-[92vw] max-w-4xl -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-xl border border-white/10 bg-black shadow-2xl">
           <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
             <Dialog.Title className="text-sm font-bold text-white md:text-base">{title}</Dialog.Title>
+            <Dialog.Description className="sr-only">
+              Trailer video for {title}
+            </Dialog.Description>
             <Dialog.Close asChild>
               <Button variant="ghost" size="icon" aria-label="Close trailer">
                 <X className="h-5 w-5" aria-hidden="true" />

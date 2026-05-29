@@ -8,8 +8,8 @@ import { StatCard } from '@/components/movie/StatCard';
 import { TrailerDialog } from '@/components/movie/TrailerDialog';
 import { useMovieCredits, useMovieDetails, useMovieVideos } from '@/hooks/useMovies';
 import { IMAGE_SIZES } from '@/lib/constants';
-import { formatDate, formatRating, formatRuntime, getImageUrl } from '@/lib/utils';
 import { NotFoundPage } from '@/pages/NotFoundPage';
+import { formatDate, formatRating, formatRuntime, getImageUrl } from '@/utils/movie';
 
 export function MovieDetailPage() {
   const params = useParams();

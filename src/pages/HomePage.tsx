@@ -10,7 +10,8 @@ import { PlayIcon } from '@/components/movie/PlayIcon';
 import { Button } from '@/components/ui/button';
 import { useNowPlayingMovies, usePopularMovies } from '@/hooks/useMovies';
 import { IMAGE_SIZES } from '@/lib/constants';
-import { cn, getImageUrl } from '@/lib/utils';
+import { cn } from '@/lib/utils';
+import { getImageUrl } from '@/utils/movie';
 
 const INITIAL_RELEASE_COUNT = 10;
 const RELEASE_LOAD_MORE_COUNT = 10;

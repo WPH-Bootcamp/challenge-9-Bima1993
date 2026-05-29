@@ -3,9 +3,10 @@ import type { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { IMAGE_SIZES } from '@/lib/constants';
-import { cn, formatRating, getImageUrl } from '@/lib/utils';
+import { cn } from '@/lib/utils';
 import type { FavoriteMovie, Movie } from '@/types/movie';
 import { PlayIcon } from '@/components/movie/PlayIcon';
+import { formatRating, getImageUrl } from '@/utils/movie';
 
 type ListMovie = Movie | FavoriteMovie;
 

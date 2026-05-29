@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import { Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { IMAGE_SIZES } from '@/lib/constants';
-import { formatRating, getImageUrl } from '@/lib/utils';
 import type { Movie } from '@/types/movie';
+import { formatRating, getImageUrl } from '@/utils/movie';
 
 interface MoviePosterCardProps {
   movie: Movie;
