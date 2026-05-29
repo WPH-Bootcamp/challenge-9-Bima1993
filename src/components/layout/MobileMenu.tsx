@@ -22,6 +22,9 @@ export function MobileMenu() {
             <Dialog.Title asChild>
               <Logo className="scale-[0.58] origin-left" />
             </Dialog.Title>
+            <Dialog.Description className="sr-only">
+              Main navigation menu
+            </Dialog.Description>
             <Dialog.Close asChild>
               <button
                 className="grid h-6 w-6 place-items-center text-white/85 transition hover:text-white"
